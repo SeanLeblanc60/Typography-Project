@@ -1,14 +1,9 @@
-@font-face {font-family: 'Privateer';
-	src: url('../fonts/privateerregular.eot');
-	src: url('../fonts/privateerregular.eot?#iefix') format('embedded-opentype'),
-		 /*url('assets/fonts/privateerregular.woff2') format('woff2'),*/
-		 url('../fonts/privateerregular.woff') format('woff'),
-		 url('../fonts/privateerregular.ttf') format('truetype'),
-		 url('../fonts/privateerregular.svg#wf') format('svg');
-}
+@font-face {font-family: 'Lobster-Regular';
+	src: url('../fonts/Lobster-Regular.ttf');
+	}
 
 body {
-	font-family: 'Merriweather', serif;
+	font-family: 'Lobster-Regular', serif;
 }
 
 @media (max-width: 475px) {
@@ -27,10 +22,6 @@ h6 {
 	font-weight: 700;
 }
 
-.privateer {
-	font-family: "Lobster-Regular", serif;
-}
-
 h1 {
   font-family: "Lobster-Regular", serif;
 }
@@ -40,10 +31,11 @@ h1 {
 }
 
 .necho-word {
-	font-size: 4rem;
+	font-size: 3rem;
 	text-align: center;
-	background-image: url(Desktop/CSSZenGarden-main/Typography-Project/img/milky.jpeg);
 	background-size: cover;
+	background-image: url(Desktop/CSSZenGarden-main/Typography-Project/img/milky.jpeg);
+	color: azure;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
@@ -59,4 +51,8 @@ h1 {
   body {
     background-color: rgb(40, 69, 131);
   }
+.raleway-container{
+  background-image: url(Desktop/CSSZenGarden-main/Typography-Project/img/milky.jpeg);
+}
+
 }
