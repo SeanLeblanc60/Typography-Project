@@ -42,7 +42,10 @@ h1 {
 .necho-word {
 	font-size: 4rem;
 	text-align: center;
-	color: azure;
+	background-image: url(Desktop/CSSZenGarden-main/Typography-Project/img/milky.jpeg);
+	background-size: cover;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 @media (max-width: 475px) {
