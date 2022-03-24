@@ -46,6 +46,7 @@ h1 {
 .necho-word {
 	font-size: 4rem;
 	text-align: center;
+	color: azure;
 }
 
 @media (max-width: 475px) {
@@ -54,79 +55,9 @@ h1 {
   }
 }
 
-.saulomon-text {
-	text-align: justify;
-}
-
-.saulomon-text::first-letter {
-	font-size: 5rem;
-	text-shadow: 2px 2px 2px purple;
-}
-
-.ashley-text {
-	font-family: 'Raleway', sans-serif;
-	color: red;
-	background-color: pink;
-}
-
-.mary-text {
-	font-size: 2.5rem;
-}
-
-.sierra-heart {
-	position: relative;
-	width: 100px;
-	height: 90px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.sierra-heart:before,
-.sierra-heart:after {
-	position: absolute;
-	content: "";
-	left: 50px;
-	top: 0;
-	width: 50px;
-	height: 80px;
-	background: red;
-	border-radius: 50px 50px 0 0;
-	transform: rotate(-45deg);
-	transform-origin: 0 100%;
-}
-.sierra-heart:after {
-	left: 0;
-	transform: rotate(45deg);
-	transform-origin: 100% 100%;
-}
-
-/* example for responsive background colors */
-@media (max-width: 475px) {
+/* responsive background color */
+@media (min-width: 476px) {
   body {
-    background-color: aqua;
+    background-color: rgb(40, 69, 131);
   }
-}
-
-@media (min-width: 476px) and (max-width: 1199px) {
-  body {
-    background-color: pink;
-  }
-}
-
-
-@media (min-width: 1200px) {
-  body {
-    background-color: green;
-  }
-}
-
-.jade-word-w {
-	display: inline-block;
-	transform: scale(1, 3);
-	transform-origin: 0% 70%;
-}
-
-.maddy-div {
-	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
 }
