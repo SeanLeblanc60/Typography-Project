@@ -30,18 +30,18 @@ h1 {
   font-family: "Lobster-Regular", serif;
 }
 
-.necho-word {
+.lyric-word {
 	font-size: 3rem;
 	text-align: center;
 	background-size: cover;
 	background-image: url(Desktop/CSSZenGarden-main/Typography-Project/img/milky.jpeg);
-	color: azure;
+	color: rgb(212, 171, 110);
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
 
 @media (max-width: 475px) {
-  .necho-word {
+  .lyric-word {
     font-size: 2.5rem;
   }
 }
@@ -52,7 +52,7 @@ h1 {
     background-color: rgb(40, 69, 131);
   }
 .raleway-container{
-  background-image: url(Desktop/CSSZenGarden-main/Typography-Project/img/milky.jpeg);
+  background-image: url(../img/milky.jpeg);
 }
 
 }
