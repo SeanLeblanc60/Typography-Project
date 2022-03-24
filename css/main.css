@@ -36,14 +36,19 @@ h1 {
 	background-size: cover;
 	background-image: url(Desktop/CSSZenGarden-main/Typography-Project/img/milky.jpeg);
 	color: rgb(212, 171, 110);
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 @media (max-width: 475px) {
   .lyric-word {
     font-size: 2.5rem;
   }
+
+  .big-text {
+	font-family: 'Lobster-Regular', sans-serif;
+	color: rgb(255, 136, 0);
+	}
 }
 
 /* responsive background color */
